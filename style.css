@@ -1,0 +1,231 @@
+body {
+    background-image: url("bilder/pexels-lulizler-3165335.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+   
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: -1;
+}
+
+
+
+h1{
+    color: rgb(5, 61, 63);
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+.card {
+    color: white;
+    font-size: 20px;
+    background-color: rgba(160, 169, 179, 0.623);
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+}
+.card1 {
+    color: white;
+    background-color: rgba(2, 49, 53, 0.925);
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.boxes {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+
+}
+.box-B{
+    width: 220px;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1;
+    font-weight: bold;
+    padding: 16px;
+
+}
+.box-G{
+    width: 220px;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1;
+    font-weight: bold;
+    padding: 16px;
+
+}
+.box-D{
+    width: 220px;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1;
+    font-weight: bold;
+    padding: 16px;
+
+}
+.box-B{
+    background: #553108; 
+}
+.box-B:hover {
+    background: #55310871;
+}
+  
+.box-G {
+    background: #dfb600;
+}
+.box-G:hover {
+    background: #dfb6005d;
+}
+  
+.box-D {
+    background: #09bcc5;
+}
+.box-D:hover {
+    background: #09bcc54d;
+}
+.navigationBar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 18px;
+    background:rgb(2, 27, 29);
+    backdrop-filter: blur(6px);
+
+}
+
+.brand {
+    color: white;
+    margin-right: auto;
+    text-decoration: none;
+    font-weight: 700;
+    white-space:nowrap;
+}
+.navigationBar {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+
+}
+.navigationBar a {
+    
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    
+}
+
+.navigationBar a:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.navigationBar a:focus {
+    outline: 3px solid fuchsia;
+    outline-offset: 2px;
+}
+
+.cookies {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 16px;
+    background: rgb(2, 27, 29);
+    color: white;
+
+}
+
+.cookies a{
+    color: white;
+}
+
+.cookies button{
+    background: rgb(0, 137, 155);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.recht {
+
+    color: white;
+    font-size: 20px;
+    background-color: rgba(160, 169, 179, 0.623);
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.recht h1{
+    color: #024146;
+}
+
+.recht2 {
+
+    color: white;
+    font-size: 20px;
+    background-color: rgba(160, 169, 179, 0.623);
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
