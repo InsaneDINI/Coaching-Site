@@ -1,5 +1,5 @@
 body {
-    background-image: url("pexels-lulizler-3165335.jpg");
+    background-image: url("bilder/pexels-lulizler-3165335.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,7 +148,21 @@ p {
     text-decoration: none;
     font-weight: 700;
     white-space:nowrap;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: bold;
+    font-size: 17px;
+
 }
+.logo{
+    height: 32px;
+    width: auto;
+    display: black;
+}
+
+
 .navigationBar {
     display: flex;
     gap: 10px;
@@ -204,29 +218,89 @@ p {
 
 .recht {
 
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    background-color: rgba(160, 169, 179, 0.623);
+    background-color: rgb(203, 213, 224);
     padding: 10px;
     border-radius: 12px;
     max-width: 600px;
     margin: 80px auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 .recht h1{
-    color: #024146;
+    color:rgb(4, 3, 77)
 }
 
 .recht2 {
 
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    background-color: rgba(160, 169, 179, 0.623);
+    background-color: rgb(203, 213, 224);
     padding: 10px;
     border-radius: 12px;
     max-width: 600px;
     margin: 80px auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
+.impressum{
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(203, 213, 224);
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.impressum h1 {
+    color:rgb(4, 3, 77)
+}
+.barriere {
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(203, 213, 224);
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+   
+}
+.barriere h1 {
+    color:rgb(4, 3, 77)
+}
+.barriere h1, h2, h3 {
+    text-align: center;
+}
+.daten {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(203, 213, 224);
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+
+}
+.daten h1 {
+    color:rgb(4, 3, 77)
+
+}
+.aboutus{
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(203, 213, 224);
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    min-height: 100vh;
+
+}
 
