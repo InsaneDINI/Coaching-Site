@@ -8,15 +8,6 @@ body {
    
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(3px);
-    z-index: -1;
-}
-
 
 
 h1{
@@ -192,11 +183,9 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    
 
-    display:inline-block;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    gap: 12px;
 
     padding: 12px 16px;
     background: rgb(2, 27, 29);
@@ -214,6 +203,9 @@ p {
     padding: 6px 12px;
     border-radius: 8px;
     cursor: pointer;
+}
+.cookies button:focus{
+    outline: 3px solid;
 }
 
 .recht {
@@ -301,6 +293,5 @@ p {
     margin: 80px auto;
     box-shadow: 0 0 20px rgb(0, 0, 0);
     min-height: 100vh;
-
 }
 
