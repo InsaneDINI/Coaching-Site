@@ -1,5 +1,5 @@
 body {
-    background-image: url("bilder/pexels-lulizler-3165335.jpg");
+    background-image: url("pexels-lulizler-3165335.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -294,4 +294,5 @@ p {
     box-shadow: 0 0 20px rgb(0, 0, 0);
     min-height: 100vh;
 }
+
 
